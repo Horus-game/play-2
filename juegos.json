@@ -1,0 +1,2572 @@
+[
+  {
+    "id": "d1-dragon-ball-z-budokai-tenkaichi-3",
+    "nombre": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-mortal-kombat-armageddon",
+    "nombre": "Mortal Kombat: Armageddon",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-mortal-kombat-deception",
+    "nombre": "Mortal Kombat: Deception",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-tekken-5",
+    "nombre": "Tekken 5",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-the-king-of-fighters-xi",
+    "nombre": "The King of Fighters XI",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-the-king-of-fighters-2002-um",
+    "nombre": "The King of Fighters 2002 UM",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-street-fighter-alpha-anthology",
+    "nombre": "Street Fighter Alpha Anthology",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-capcom-vs-snk-2",
+    "nombre": "Capcom vs. SNK 2",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-guilty-gear-xx-accent-core",
+    "nombre": "Guilty Gear XX Accent Core",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-soulcalibur-iii",
+    "nombre": "Soulcalibur III",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-def-jam-fight-for-ny",
+    "nombre": "Def Jam: Fight for NY",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Urbano",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-naruto-ultimate-ninja-3",
+    "nombre": "Naruto: Ultimate Ninja 3",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Anime",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-bloody-roar-4",
+    "nombre": "Bloody Roar 4",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-virtua-fighter-4-evolution",
+    "nombre": "Virtua Fighter 4 Evolution",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-marvel-vs-capcom-2",
+    "nombre": "Marvel vs. Capcom 2",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-wwe-smackdown-here-comes-the-pain",
+    "nombre": "WWE SmackDown! Here Comes the Pain",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha Libre",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-wwe-smackdown-vs-raw",
+    "nombre": "WWE SmackDown! vs. RAW",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha Libre",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-fight-night-round-3",
+    "nombre": "Fight Night Round 3",
+    "disco": 1,
+    "categoria": "Deportes",
+    "genero_original": "Deportes / Boxeo",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Simulador deportivo para PS2 con modos de temporada, torneos y partidas rápidas."
+  },
+  {
+    "id": "d1-def-jam-vendetta",
+    "nombre": "Def Jam Vendetta",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Urbano",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-samurai-shodown-anthology",
+    "nombre": "Samurai Shodown Anthology",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Arcade",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-metal-slug-anthology",
+    "nombre": "Metal Slug Anthology",
+    "disco": 1,
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Accion",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "d1-bloody-roar-3",
+    "nombre": "Bloody Roar 3",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-super-dragon-ball-z",
+    "nombre": "Super Dragon Ball Z",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-garou-mark-of-the-wolves",
+    "nombre": "Garou: Mark of the Wolves",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d1-svc-chaos-snk-vs-capcom",
+    "nombre": "SVC Chaos: SNK vs. Capcom",
+    "disco": 1,
+    "categoria": "Lucha",
+    "genero_original": "Lucha",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "d3-grand-theft-auto-san-andreas",
+    "nombre": "Grand Theft Auto: San Andreas",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-grand-theft-auto-vice-city",
+    "nombre": "Grand Theft Auto: Vice City",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-grand-theft-auto-iii",
+    "nombre": "Grand Theft Auto III",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-metal-gear-solid-3-snake-eater",
+    "nombre": "Metal Gear Solid 3: Snake Eater",
+    "disco": 3,
+    "categoria": "Sigilo",
+    "genero_original": "Acción / Infiltración",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Juego de sigilo y estrategia táctica. Evitá ser detectado y planificá cada movimiento."
+  },
+  {
+    "id": "d3-metal-gear-solid-2-sons-of-liberty",
+    "nombre": "Metal Gear Solid 2: Sons of Liberty",
+    "disco": 3,
+    "categoria": "Sigilo",
+    "genero_original": "Acción / Infiltración",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Juego de sigilo y estrategia táctica. Evitá ser detectado y planificá cada movimiento."
+  },
+  {
+    "id": "d3-god-of-war",
+    "nombre": "God of War",
+    "disco": 3,
+    "categoria": "Hack and Slash",
+    "genero_original": "Acción / Hack and Slash",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Acción frenética con combos cuerpo a cuerpo contra oleadas de enemigos."
+  },
+  {
+    "id": "d3-god-of-war-ii",
+    "nombre": "God of War II",
+    "disco": 3,
+    "categoria": "Hack and Slash",
+    "genero_original": "Acción / Hack and Slash",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Acción frenética con combos cuerpo a cuerpo contra oleadas de enemigos."
+  },
+  {
+    "id": "d3-call-of-duty-finest-hour",
+    "nombre": "Call of Duty: Finest Hour",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Belérico",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-call-of-duty-2-big-red-one",
+    "nombre": "Call of Duty 2: Big Red One",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Belérico",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-call-of-duty-3",
+    "nombre": "Call of Duty 3",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Belérico",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-armored-core-last-raven",
+    "nombre": "Armored Core: Last Raven",
+    "disco": 3,
+    "categoria": "Acción",
+    "genero_original": "Acción / Mecha",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Título de acción para PS2 con ritmo intenso y desafíos variados."
+  },
+  {
+    "id": "d3-armored-core-3",
+    "nombre": "Armored Core 3",
+    "disco": 3,
+    "categoria": "Acción",
+    "genero_original": "Acción / Mecha",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Título de acción para PS2 con ritmo intenso y desafíos variados."
+  },
+  {
+    "id": "d3-armored-core-nexus",
+    "nombre": "Armored Core: Nexus",
+    "disco": 3,
+    "categoria": "Acción",
+    "genero_original": "Acción / Mecha",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Título de acción para PS2 con ritmo intenso y desafíos variados."
+  },
+  {
+    "id": "d3-armored-core-nine-breaker",
+    "nombre": "Armored Core: Nine Breaker",
+    "disco": 3,
+    "categoria": "Acción",
+    "genero_original": "Acción / Mecha",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Título de acción para PS2 con ritmo intenso y desafíos variados."
+  },
+  {
+    "id": "d3-resident-evil-4",
+    "nombre": "Resident Evil 4",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-resident-evil-code-veronica-x",
+    "nombre": "Resident Evil - Code: Veronica X",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-resident-evil-outbreak",
+    "nombre": "Resident Evil Outbreak",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-resident-evil-outbreak-file-2",
+    "nombre": "Resident Evil Outbreak: File #2",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-silent-hill-2",
+    "nombre": "Silent Hill 2",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-silent-hill-3",
+    "nombre": "Silent Hill 3",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-silent-hill-4-the-room",
+    "nombre": "Silent Hill 4: The Room",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-silent-hill-origins",
+    "nombre": "Silent Hill: Origins",
+    "disco": 3,
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "d3-medal-of-honor-frontline",
+    "nombre": "Medal of Honor: Frontline",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter en Primera Persona",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-medal-of-honor-rising-sun",
+    "nombre": "Medal of Honor: Rising Sun",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Belérico",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-medal-of-honor-european-assault",
+    "nombre": "Medal of Honor: European Assault",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Belérico",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-shadow-of-the-colossus",
+    "nombre": "Shadow of the Colossus",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Aventura Épica",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-ico",
+    "nombre": "Ico",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Aventura / Puzzle",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-okami",
+    "nombre": "Okami",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Aventura / Acción",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-devil-may-cry",
+    "nombre": "Devil May Cry",
+    "disco": 3,
+    "categoria": "Hack and Slash",
+    "genero_original": "Hack and Slash",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Acción frenética con combos cuerpo a cuerpo contra oleadas de enemigos."
+  },
+  {
+    "id": "d3-devil-may-cry-3-dante-s-awakening",
+    "nombre": "Devil May Cry 3: Dante's Awakening",
+    "disco": 3,
+    "categoria": "Hack and Slash",
+    "genero_original": "Hack and Slash",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Acción frenética con combos cuerpo a cuerpo contra oleadas de enemigos."
+  },
+  {
+    "id": "d3-prince-of-persia-the-sands-of-time",
+    "nombre": "Prince of Persia: The Sands of Time",
+    "disco": 3,
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "d3-prince-of-persia-warrior-within",
+    "nombre": "Prince of Persia: Warrior Within",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Aventura / Acción",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-prince-of-persia-the-two-thrones",
+    "nombre": "Prince of Persia: The Two Thrones",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Aventura / Acción",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-bully",
+    "nombre": "Bully",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto / Acción",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-max-payne",
+    "nombre": "Max Payne",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Noir",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-max-payne-2-the-fall-of-max-payne",
+    "nombre": "Max Payne 2: The Fall of Max Payne",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Noir",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-need-for-speed-most-wanted",
+    "nombre": "Need for Speed: Most Wanted",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Carreras / Tuning",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-need-for-speed-underground-2",
+    "nombre": "Need for Speed: Underground 2",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Carreras / Tuning",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-burnout-3-takedown",
+    "nombre": "Burnout 3: Takedown",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Carreras / Arcade",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-midnight-club-3-dub-edition",
+    "nombre": "Midnight Club 3: DUB Edition",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Carreras / Mundo Abierto",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-gran-turismo-4",
+    "nombre": "Gran Turismo 4",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Simulador de Conducción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-gran-turismo-3-a-spec",
+    "nombre": "Gran Turismo 3: A-Spec",
+    "disco": 3,
+    "categoria": "Carreras",
+    "genero_original": "Simulador de Conducción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "d3-killzone",
+    "nombre": "Killzone",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter en Primera Persona",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-timesplitters-2",
+    "nombre": "Timesplitters 2",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-timesplitters-future-perfect",
+    "nombre": "Timesplitters: Future Perfect",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "d3-the-matrix-path-of-neo",
+    "nombre": "The Matrix: Path of Neo",
+    "disco": 3,
+    "categoria": "Beat 'em up",
+    "genero_original": "Acción / Beat 'em up",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Beat 'em up clásico: avanzá por el escenario repartiendo golpes contra hordas de enemigos."
+  },
+  {
+    "id": "d3-enter-the-matrix",
+    "nombre": "Enter the Matrix",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-onimusha-warlords",
+    "nombre": "Onimusha: Warlords",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-onimusha-2-samurai-s-destiny",
+    "nombre": "Onimusha 2: Samurai's Destiny",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-onimusha-3-demon-siege",
+    "nombre": "Onimusha 3: Demon Siege",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-onimusha-dawn-of-dreams",
+    "nombre": "Onimusha: Dawn of Dreams",
+    "disco": 3,
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "d3-castlevania-curse-of-darkness",
+    "nombre": "Castlevania: Curse of Darkness",
+    "disco": 3,
+    "categoria": "RPG",
+    "genero_original": "Acción / RPG",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "d3-castlevania-lament-of-innocence",
+    "nombre": "Castlevania: Lament of Innocence",
+    "disco": 3,
+    "categoria": "RPG",
+    "genero_original": "Acción / RPG",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "d3-god-hand",
+    "nombre": "God Hand",
+    "disco": 3,
+    "categoria": "Beat 'em up",
+    "genero_original": "Beat 'em up",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Beat 'em up clásico: avanzá por el escenario repartiendo golpes contra hordas de enemigos."
+  },
+  {
+    "id": "d3-mercenaries-playground-of-destruction",
+    "nombre": "Mercenaries: Playground of Destruction",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Acción / Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-true-crime-streets-of-la",
+    "nombre": "True Crime: Streets of LA",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-true-crime-new-york-city",
+    "nombre": "True Crime: New York City",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-scarface-the-world-is-yours",
+    "nombre": "Scarface: The World is Yours",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-the-godfather",
+    "nombre": "The Godfather",
+    "disco": 3,
+    "categoria": "Mundo Abierto",
+    "genero_original": "Mundo Abierto",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Aventura de mundo abierto en PS2: explorá libremente, cumplí misiones y desatá el caos a tu ritmo."
+  },
+  {
+    "id": "d3-hitman-blood-money",
+    "nombre": "Hitman: Blood Money",
+    "disco": 3,
+    "categoria": "Sigilo",
+    "genero_original": "Sigilo / Acción",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Juego de sigilo y estrategia táctica. Evitá ser detectado y planificá cada movimiento."
+  },
+  {
+    "id": "d3-hitman-2-silent-assassin",
+    "nombre": "Hitman 2: Silent Assassin",
+    "disco": 3,
+    "categoria": "Sigilo",
+    "genero_original": "Sigilo / Acción",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Juego de sigilo y estrategia táctica. Evitá ser detectado y planificá cada movimiento."
+  },
+  {
+    "id": "d3-splinter-cell-chaos-theory",
+    "nombre": "Splinter Cell: Chaos Theory",
+    "disco": 3,
+    "categoria": "Sigilo",
+    "genero_original": "Sigilo / Espionaje",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Juego de sigilo y estrategia táctica. Evitá ser detectado y planificá cada movimiento."
+  },
+  {
+    "id": "d3-tom-clancy-s-ghost-recon",
+    "nombre": "Tom Clancy's Ghost Recon",
+    "disco": 3,
+    "categoria": "Shooter",
+    "genero_original": "Shooter Táctico",
+    "dificultad": 5,
+    "jugadores": "1",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-activision-anthology",
+    "nombre": "Activision Anthology",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-alien-hominid",
+    "nombre": "Alien Hominid",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-naruto-clash-of-ninja-revolution-3",
+    "nombre": "Naruto: Clash of Ninja Revolution 3",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-naruto-ultimate-ninja",
+    "nombre": "Naruto: Ultimate Ninja",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-naruto-ultimate-ninja-zero-3",
+    "nombre": "Naruto: Ultimate Ninja Zero 3",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-art-of-fighting-anthology",
+    "nombre": "Art of Fighting Anthology",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-atari-anthology",
+    "nombre": "Atari Anthology",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-baldur-s-gate-dark-alliance",
+    "nombre": "Baldur's Gate: Dark Alliance",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-baldur-s-gate-dark-alliance-2",
+    "nombre": "Baldur's Gate: Dark Alliance 2",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-baroque",
+    "nombre": "Baroque",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-battlefield-2-modern-combat",
+    "nombre": "Battlefield 2: Modern Combat",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-blood-will-tell",
+    "nombre": "Blood Will Tell",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-bloody-roar-3",
+    "nombre": "Bloody Roar 3",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-burnout-3-takedown",
+    "nombre": "Burnout 3: Takedown",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-burnout-dominator",
+    "nombre": "Burnout Dominator",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-buzz-hollywood",
+    "nombre": "Buzz! Hollywood",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-junior-dino-den",
+    "nombre": "Buzz! Junior: Dino Den",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-junior-monster-rumble",
+    "nombre": "Buzz! Junior: Monster Rumble",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-the-big-quiz",
+    "nombre": "Buzz! The Big Quiz",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-the-pop-quiz",
+    "nombre": "Buzz! The Pop Quiz",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-the-sports-quiz",
+    "nombre": "Buzz! The Sports Quiz",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-buzz-qu-sabes-de-tu-pa-s",
+    "nombre": "Buzz! ¿Qué Sabes de tu País?",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-capcom-classics-collection-vol-1",
+    "nombre": "Capcom Classics Collection Vol.1",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-capcom-classics-collection-vol-2",
+    "nombre": "Capcom Classics Collection Vol.2",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-castlevania-curse-of-darkness",
+    "nombre": "Castlevania: Curse of Darkness",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-contra-shattered-soldier",
+    "nombre": "Contra: Shattered Soldier",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-crash-bandicoot-nitro-kart",
+    "nombre": "Crash Bandicoot: Nitro Kart",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-crash-twinsanity",
+    "nombre": "Crash Twinsanity",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-darkwatch",
+    "nombre": "Darkwatch",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-def-jam-fight-for-ny",
+    "nombre": "Def Jam: Fight for NY",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-devil-may-cry-2-dante-disc",
+    "nombre": "Devil May Cry 2 (Dante Disc)",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-devil-may-cry-2-lucia-disc",
+    "nombre": "Devil May Cry 2 (Lucia Disc)",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-downhill-domination",
+    "nombre": "Downhill Domination",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-dragon-blaze",
+    "nombre": "Dragon Blaze",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-echo-night-beyond",
+    "nombre": "Echo Night: Beyond",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-fatal-fury-battle-archives-vol-2",
+    "nombre": "Fatal Fury Battle Archives Vol.2",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-fifa-street",
+    "nombre": "FIFA Street",
+    "disco": "C",
+    "categoria": "Deportes",
+    "genero_original": "Deportes",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Simulador deportivo para PS2 con modos de temporada, torneos y partidas rápidas."
+  },
+  {
+    "id": "dC-final-fantasy-x",
+    "nombre": "Final Fantasy X",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-final-fantasy-x-2",
+    "nombre": "Final Fantasy X-2",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-final-fantasy-xii",
+    "nombre": "Final Fantasy XII",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-forgotten-realms-demon-stone",
+    "nombre": "Forgotten Realms: Demon Stone",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-gitaroo-man",
+    "nombre": "Gitaroo Man",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-god-of-war",
+    "nombre": "God of War",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-god-of-war-ii",
+    "nombre": "God of War II",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-gradius-iii-iv",
+    "nombre": "Gradius III & IV",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-guitar-hero-iii-legends-of-rock",
+    "nombre": "Guitar Hero III: Legends of Rock",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-gunbird-special-edition",
+    "nombre": "Gunbird: Special Edition",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-the-guy-game",
+    "nombre": "The Guy Game",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-the-hobbit",
+    "nombre": "The Hobbit",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-jacked",
+    "nombre": "Jacked",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-jak-and-daxter-the-lost-frontier",
+    "nombre": "Jak and Daxter: The Lost Frontier",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-just-cause",
+    "nombre": "Just Cause",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-kinetica",
+    "nombre": "Kinetica",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-king-of-fighters-2000-2001-disc-2",
+    "nombre": "King of Fighters 2000 & 2001 (Disc 2)",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-knights-of-the-temple-ii",
+    "nombre": "Knights of the Temple II",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-manhunt",
+    "nombre": "Manhunt",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-megaman-anniversary-collection",
+    "nombre": "MegaMan Anniversary Collection",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-megaman-x-collection",
+    "nombre": "MegaMan X Collection",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-metal-gear-solid-2-sons-of-liberty",
+    "nombre": "Metal Gear Solid 2: Sons of Liberty",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-metal-slug-anthology",
+    "nombre": "Metal Slug Anthology",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-midway-arcade-treasures-2",
+    "nombre": "Midway Arcade Treasures 2",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-midway-arcade-treasures-3",
+    "nombre": "Midway Arcade Treasures 3",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-mortal-kombat-armageddon",
+    "nombre": "Mortal Kombat: Armageddon",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-mortal-kombat-deception",
+    "nombre": "Mortal Kombat: Deception",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-mushihimesama",
+    "nombre": "Mushihimesama",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-mx-vs-atv-untamed",
+    "nombre": "MX vs. ATV Untamed",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-mx-vs-atv-unleashed",
+    "nombre": "MX vs. ATV Unleashed",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-mx-world-tour",
+    "nombre": "MX World Tour",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-namco-museum",
+    "nombre": "Namco Museum",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-nba-live-09",
+    "nombre": "NBA Live 09",
+    "disco": "C",
+    "categoria": "Deportes",
+    "genero_original": "Deportes",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Simulador deportivo para PS2 con modos de temporada, torneos y partidas rápidas."
+  },
+  {
+    "id": "dC-need-for-speed-most-wanted",
+    "nombre": "Need for Speed: Most Wanted",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-neo-contra",
+    "nombre": "Neo Contra",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-neogeo-fatal-fury-collection",
+    "nombre": "NeoGeo Fatal Fury Collection",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-nights-into-dreams",
+    "nombre": "NiGHTS into Dreams...",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-ninja-assault",
+    "nombre": "Ninja Assault",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-obscure",
+    "nombre": "Obscure",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-obscure-ii",
+    "nombre": "Obscure II",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-odin-sphere",
+    "nombre": "Odin Sphere",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-onimusha-warlords",
+    "nombre": "Onimusha: Warlords",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-onimusha-2-samurai-s-destiny",
+    "nombre": "Onimusha 2: Samurai's Destiny",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-onimusha-3-demon-siege",
+    "nombre": "Onimusha 3: Demon Siege",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-outrun-2006-coast-2-coast",
+    "nombre": "Outrun 2006: Coast 2 Coast",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-pac-man-world-rally",
+    "nombre": "Pac-Man World Rally",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-prince-of-persia-the-sands-of-time",
+    "nombre": "Prince of Persia: The Sands of Time",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-prince-of-persia-the-two-thrones",
+    "nombre": "Prince of Persia: The Two Thrones",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-prince-of-persia-warrior-within",
+    "nombre": "Prince of Persia: Warrior Within",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-primal",
+    "nombre": "Primal",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-pro-evolution-soccer-2014",
+    "nombre": "Pro Evolution Soccer 2014",
+    "disco": "C",
+    "categoria": "Deportes",
+    "genero_original": "Deportes",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Simulador deportivo para PS2 con modos de temporada, torneos y partidas rápidas."
+  },
+  {
+    "id": "dC-project-zero",
+    "nombre": "Project Zero",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-project-zero-2-crimson-butterfly",
+    "nombre": "Project Zero 2: Crimson Butterfly",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-project-zero-3-the-tormented",
+    "nombre": "Project Zero 3: The Tormented",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-the-punisher",
+    "nombre": "The Punisher",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-radirgy-precious",
+    "nombre": "Radirgy: Precious",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-ratchet-clank",
+    "nombre": "Ratchet & Clank",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-ratchet-clank-2-locked-loaded",
+    "nombre": "Ratchet & Clank 2: Locked & Loaded",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-ratchet-clank-3-up-your-arsenal",
+    "nombre": "Ratchet & Clank 3: Up Your Arsenal",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-ratchet-deadlocked",
+    "nombre": "Ratchet: Deadlocked",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-resident-evil-code-veronica-x",
+    "nombre": "Resident Evil: Code Veronica X",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-resident-evil-outbreak",
+    "nombre": "Resident Evil Outbreak",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-resident-evil-4",
+    "nombre": "Resident Evil 4",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-resident-evil-outbreak-file-2",
+    "nombre": "Resident Evil Outbreak: File #2",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-rule-of-rose",
+    "nombre": "Rule of Rose",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-rumble-roses",
+    "nombre": "Rumble Roses",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-rygar-the-legendary-adventure",
+    "nombre": "Rygar: The Legendary Adventure",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-saint-seiya-the-sanctuary",
+    "nombre": "Saint Seiya: The Sanctuary",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-samurai-shodown-anthology",
+    "nombre": "Samurai Shodown Anthology",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-second-sight",
+    "nombre": "Second Sight",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-sega-classics-collection",
+    "nombre": "Sega Classics Collection",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-sega-genesis-collection",
+    "nombre": "Sega Genesis Collection",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-shadow-hearts",
+    "nombre": "Shadow Hearts",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-shadow-of-rome",
+    "nombre": "Shadow of Rome",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-shadow-tower-abyss",
+    "nombre": "Shadow Tower Abyss",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-shin-megami-tensei-digital-devil-saga",
+    "nombre": "Shin Megami Tensei: Digital Devil Saga",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-silent-hill-origins",
+    "nombre": "Silent Hill: Origins",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-silent-hill-shattered-memories",
+    "nombre": "Silent Hill: Shattered Memories",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-silent-hill-2",
+    "nombre": "Silent Hill 2",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-silent-hill-3",
+    "nombre": "Silent Hill 3",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-silent-hill-4-the-room",
+    "nombre": "Silent Hill 4: The Room",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-the-simpsons-hit-run",
+    "nombre": "The Simpsons: Hit & Run",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-sly-3-honor-among-thieves",
+    "nombre": "Sly 3: Honor Among Thieves",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-sly-cooper-and-the-thievius-raccoonus",
+    "nombre": "Sly Cooper and the Thievius Raccoonus",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-sly-2-band-of-thieves",
+    "nombre": "Sly 2: Band of Thieves",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-snk-arcade-classics-volume-1",
+    "nombre": "SNK Arcade Classics Volume 1",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-sonic-gems-collection",
+    "nombre": "Sonic Gems Collection",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-sonic-heroes",
+    "nombre": "Sonic Heroes",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-sonic-riders-zero-gravity",
+    "nombre": "Sonic Riders: Zero Gravity",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-sonic-unleashed",
+    "nombre": "Sonic Unleashed",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-soulcalibur-iii",
+    "nombre": "Soulcalibur III",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-soulcalibur-ii",
+    "nombre": "Soulcalibur II",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-spartan-total-warrior",
+    "nombre": "Spartan: Total Warrior",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-splatterhouse",
+    "nombre": "Splatterhouse",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-spyro-a-hero-s-tail",
+    "nombre": "Spyro: A Hero's Tail",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-spyro-enter-the-dragonfly",
+    "nombre": "Spyro: Enter the Dragonfly",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-street-fighter-alpha-anthology",
+    "nombre": "Street Fighter Alpha Anthology",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-street-fighter-anniversary-collection",
+    "nombre": "Street Fighter Anniversary Collection",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-the-suffering",
+    "nombre": "The Suffering",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-the-suffering-ties-that-bind",
+    "nombre": "The Suffering: Ties That Bind",
+    "disco": "C",
+    "categoria": "Survival Horror",
+    "genero_original": "Survival Horror",
+    "dificultad": 4,
+    "jugadores": "1",
+    "resena": "Terror y supervivencia: recursos limitados, atmósfera opresiva y enemigos que no perdonan errores."
+  },
+  {
+    "id": "dC-super-mario-64-rom",
+    "nombre": "Super Mario 64 (ROM)",
+    "disco": "C",
+    "categoria": "Plataformas",
+    "genero_original": "Aventura / Plataformas",
+    "dificultad": 2,
+    "jugadores": "1",
+    "resena": "Plataformero clásico de PS2 con saltos precisos, coleccionables y niveles llenos de estilo."
+  },
+  {
+    "id": "dC-tmnt-teenage-mutant-ninja-turtles",
+    "nombre": "TMNT: Teenage Mutant Ninja Turtles",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-taiko-no-tatsujin-10-in-1",
+    "nombre": "Taiko no Tatsujin 10 in 1",
+    "disco": "C",
+    "categoria": "Fiesta",
+    "genero_original": "Musical / Trivia",
+    "dificultad": 2,
+    "jugadores": "1-4",
+    "resena": "Juego de fiesta / trivia ideal para jugar en grupo y pasar un buen rato."
+  },
+  {
+    "id": "dC-taito-legends-2",
+    "nombre": "Taito Legends 2",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-tales-of-the-abyss",
+    "nombre": "Tales of the Abyss",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-tekken-4",
+    "nombre": "Tekken 4",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-tekken-5",
+    "nombre": "Tekken 5",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-tekken-tag-tournament",
+    "nombre": "Tekken Tag Tournament",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-the-fellowship-of-the-ring",
+    "nombre": "The Fellowship of the Ring",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-the-hobbit-b",
+    "nombre": "The Hobbit",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-the-king-of-fighters-10-in-1",
+    "nombre": "The King of Fighters 10 in 1",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-the-thing",
+    "nombre": "The Thing",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-time-crisis-2",
+    "nombre": "Time Crisis 2",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-time-crisis-3",
+    "nombre": "Time Crisis 3",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-timesplitters",
+    "nombre": "TimeSplitters",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-timesplitters-future-perfect",
+    "nombre": "TimeSplitters: Future Perfect",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-timesplitters-2",
+    "nombre": "TimeSplitters 2",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-urban-chaos-riot-response",
+    "nombre": "Urban Chaos: Riot Response",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-valkyrie-profile-2-silmeria",
+    "nombre": "Valkyrie Profile 2: Silmeria",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-vampire-darkstalkers-collection",
+    "nombre": "Vampire: Darkstalkers Collection",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-vampire-night",
+    "nombre": "Vampire Night",
+    "disco": "C",
+    "categoria": "Shooter",
+    "genero_original": "Shooter / Acción",
+    "dificultad": 4,
+    "jugadores": "1-2",
+    "resena": "Shooter de acción para PS2 con intensos tiroteos y campañas cargadas de adrenalina."
+  },
+  {
+    "id": "dC-viewtiful-joe",
+    "nombre": "Viewtiful Joe",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-viewtiful-joe-2",
+    "nombre": "Viewtiful Joe 2",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-virtua-cop-elite-edition",
+    "nombre": "Virtua Cop: Elite Edition",
+    "disco": "C",
+    "categoria": "Lucha",
+    "genero_original": "Lucha / Acción",
+    "dificultad": 3,
+    "jugadores": "1-2",
+    "resena": "Título de combate uno contra uno para PS2. Elegí tu personaje y encadená combos para derrotar al rival."
+  },
+  {
+    "id": "dC-warhammer-40-000-fire-warrior",
+    "nombre": "Warhammer 40,000: Fire Warrior",
+    "disco": "C",
+    "categoria": "RPG",
+    "genero_original": "RPG / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "RPG de acción con progresión de personaje, historia profunda y combates estratégicos."
+  },
+  {
+    "id": "dC-wipeout-pulse",
+    "nombre": "Wipeout Pulse",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-world-heroes-anthology",
+    "nombre": "World Heroes Anthology",
+    "disco": "C",
+    "categoria": "Arcade",
+    "genero_original": "Arcade / Colección",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Colección o título arcade clásico portado a PS2, ideal para partidas cortas y puntajes altos."
+  },
+  {
+    "id": "dC-worms-blast",
+    "nombre": "Worms Blast",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-xg3-extreme-g-racing",
+    "nombre": "XG3: Extreme-G Racing",
+    "disco": "C",
+    "categoria": "Carreras",
+    "genero_original": "Carreras",
+    "dificultad": 2,
+    "jugadores": "1-2",
+    "resena": "Juego de carreras para PS2 con autos personalizables y circuitos desafiantes."
+  },
+  {
+    "id": "dC-yakuza",
+    "nombre": "Yakuza",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-yakuza-2",
+    "nombre": "Yakuza 2",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  },
+  {
+    "id": "dC-giga-wing-generations",
+    "nombre": "Giga Wing Generations",
+    "disco": "C",
+    "categoria": "Aventura",
+    "genero_original": "Acción / Aventura",
+    "dificultad": 3,
+    "jugadores": "1",
+    "resena": "Aventura de acción con exploración, resolución de puzzles y una historia envolvente."
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Generador de QR · PS2 GamePass</title>
+<style>
+  body{font-family:system-ui,sans-serif; background:#0e0f1a; color:#eef0f7; padding:30px; text-align:center;}
+  h1{margin-bottom:6px;}
+  p.sub{color:#9aa0b4; margin-top:0;}
+  input{padding:10px; width:340px; max-width:80vw; border-radius:8px; border:1px solid #444; background:#161826; color:#fff; margin-bottom:24px;}
+  .cards{display:flex; gap:24px; flex-wrap:wrap; justify-content:center;}
+  .card{background:#1c1f30; border-radius:14px; padding:20px; width:220px; box-shadow:0 8px 20px #0006;}
+  .card img{width:180px; height:180px; background:#fff; border-radius:8px;}
+  .card h3{margin:12px 0 4px;}
+  .card a{color:#5ee7c8; font-size:.75rem; word-break:break-all;}
+  .card button{margin-top:10px; background:#7c5cff; border:none; color:#fff; padding:8px 14px; border-radius:8px; cursor:pointer; font-weight:600;}
+</style>
+</head>
+<body>
+  <h1>🎮 QR por disco</h1>
+  <p class="sub">Pegá la URL base donde publicaste el sitio (GitHub Pages) y se generará un QR por cada disco. Imprimilo y pegalo en la funda del disco físico.</p>
+  <input id="baseUrl" placeholder="https://tuusuario.github.io/tu-repo/index.html" value="">
+  <div class="cards" id="cards"></div>
+
+<script>
+const DISCOS = [
+  {id: 1, nombre: "Disco 1", subtitulo: "Lucha y Acción Rápida"},
+  {id: 3, nombre: "Disco 3", subtitulo: "Mundo Abierto, Aventura y Disparos"},
+  {id: "C", nombre: "Colección", subtitulo: "Listado Alfabético Adicional"},
+];
+
+function render() {
+  const base = document.getElementById("baseUrl").value.trim() || (location.origin + location.pathname.replace("generar_qrs.html","index.html"));
+  const cardsEl = document.getElementById("cards");
+  cardsEl.innerHTML = "";
+  DISCOS.forEach(d => {
+    const url = `${base}?disco=${d.id}`;
+    const qrImg = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(url)}`;
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${qrImg}" alt="QR ${d.nombre}">
+      <h3>${d.nombre}</h3>
+      <p style="color:#9aa0b4; font-size:.8rem;">${d.subtitulo}</p>
+      <a href="${url}" target="_blank">${url}</a><br>
+      <button onclick="window.open('${qrImg}','_blank')">Descargar QR</button>
+    `;
+    cardsEl.appendChild(card);
+  });
+}
+document.getElementById("baseUrl").addEventListener("input", render);
+render();
+</script>
+</body>
+</html>
