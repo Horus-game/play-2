@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PS2 GamePass · Guardia de Discos</title>
+<style>
+  :root{
+    --bg:#0e0f1a; --bg2:#161826; --card:#1c1f30; --card2:#232640;
+    --accent:#5ee7c8; --accent2:#7c5cff; --text:#eef0f7; --muted:#9aa0b4;
+    --danger:#ff6b6b; --radius:16px; --shadow:0 8px 24px rgba(0,0,0,.35);
+    --d1:#e63946; --d3:#1d3557; --dc:#2a9d8f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:
+    radial-gradient(1200px 600px at 10% -10%, #23264a55, transparent),
+    radial-gradient(1000px 500px at 110% 10%, #5ee7c822, transparent),
+    var(--bg); color:var(--text); min-height:100vh; padding-bottom:60px;}
+  header{position:sticky; top:0; z-index:65; background:#0e0f1acc; border-bottom:1px solid #ffffff12; padding:14px 20px; isolation:isolate;}
+  header::before{content:""; position:absolute; inset:0; backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); z-index:-1;}
+  .header-inner{max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;}
+  .logo{display:flex; align-items:center; gap:10px; font-weight:800; font-size:1.25rem; letter-spacing:.5px;}
+  .logo span.tag{background:linear-gradient(135deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .disc-tabs{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .disc-tab{padding:8px 16px; border-radius:999px; border:1px solid #ffffff20; background:#ffffff08; color:var(--muted); cursor:pointer; font-size:.85rem; font-weight:600; transition:.2s;}
+  .disc-tab:hover{background:#ffffff14; color:var(--text);}
+  .disc-tab.active{color:#0e0f1a; border-color:transparent;}
+  .add-disc-tab{border-style:dashed;}
+  .header-right{display:flex; align-items:center; gap:10px;}
+  #unlockBtn{background:#ffffff10; border:1px solid #ffffff20; color:var(--muted); padding:8px 14px; border-radius:999px; cursor:pointer; font-size:.78rem; font-weight:700; white-space:nowrap;}
+  #unlockBtn.editor-active{background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#0e0f1a; border-color:transparent;}
+  main{max-width:1200px; margin:0 auto; padding:20px;}
+  .disc-banner{border-radius:var(--radius); padding:22px 26px; margin-bottom:12px; box-shadow:var(--shadow); position:relative; overflow:hidden;}
+  .disc-banner h1{margin:0 0 4px; font-size:1.6rem; display:flex; align-items:center; gap:8px;}
+  .edit-disc-btn{background:#ffffff18; border:none; color:#fff; width:26px; height:26px; border-radius:50%; cursor:pointer; font-size:.75rem; flex-shrink:0;}
+  .edit-disc-btn:hover{background:#ffffff30;}
+  .disc-banner p{margin:0; opacity:.85}
+  .disc-banner .count{position:absolute; right:20px; top:50%; transform:translateY(-50%); font-size:2.6rem; font-weight:900; opacity:.25;}
+  .general-download-box{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:20px;}
+  .btn-download-general{background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#0e0f1a; font-weight:800; text-decoration:none; padding:10px 16px; border-radius:10px; font-size:.85rem;}
+  .btn-edit-general{background:none; border:1px dashed #ffffff30; color:var(--muted); padding:9px 14px; border-radius:10px; cursor:pointer; font-size:.78rem;}
+  .toolbar{display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:18px; background:var(--bg2); padding:14px; border-radius:var(--radius); border:1px solid #ffffff10;}
+  .toolbar input[type=search]{flex:1; min-width:180px; background:#0e0f1a; border:1px solid #ffffff20; color:var(--text); padding:10px 14px; border-radius:10px; font-size:.9rem;}
+  .toolbar select{background:#0e0f1a; border:1px solid #ffffff20; color:var(--text); padding:10px 12px; border-radius:10px; font-size:.85rem; cursor:pointer;}
+  .toolbar label{font-size:.75rem; color:var(--muted); display:flex; flex-direction:column; gap:4px;}
+  #addGameBtn{background:linear-gradient(135deg,var(--accent),var(--accent2)); border:none; color:#0e0f1a; font-weight:800; padding:10px 16px; border-radius:10px; cursor:pointer; font-size:.82rem; white-space:nowrap;}
+  #duplicatesBtn{background:#ffffff10; border:1px solid #ffffff20; color:var(--text); font-weight:700; padding:10px 16px; border-radius:10px; cursor:pointer; font-size:.82rem; white-space:nowrap;}
+  #deleteDuplicatesBtn{background:none; border:1px solid var(--danger); color:var(--danger); font-weight:700; padding:10px 16px; border-radius:10px; cursor:pointer; font-size:.82rem; white-space:nowrap;}
+  #autoCoversBtn{background:#ffffff10; border:1px solid #ffffff20; color:var(--text); font-weight:700; padding:10px 16px; border-radius:10px; cursor:pointer; font-size:.82rem; white-space:nowrap;}
+  .consola-select{background:linear-gradient(135deg,#ffffff14,#ffffff08); border:1px solid #ffffff28; color:var(--text); font-weight:800; font-size:.8rem; padding:9px 14px; border-radius:999px; cursor:pointer; max-width:170px;}
+  .consola-select:hover{background:#ffffff1c;}
+  @media (max-width:760px){ .consola-select{max-width:104px; font-size:.68rem; padding:8px 8px; border-radius:10px;} }
+  .dup-summary{font-size:.82rem; color:var(--muted); margin-bottom:14px;}
+  .dup-group{background:var(--card); border:1px solid #ffffff10; border-radius:12px; padding:12px 14px; margin-bottom:10px;}
+  .dup-group b{font-size:.92rem;}
+  .dup-n{color:var(--accent); font-weight:800; font-size:.78rem; margin-left:6px;}
+  .dup-group ul{list-style:none; margin:8px 0 0; padding:0; display:flex; flex-direction:column; gap:4px;}
+  .dup-group li{font-size:.8rem; color:var(--text);}
+  .dup-disc{color:var(--muted); font-size:.75rem;}
+  .chips{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px;}
+  .chip{padding:6px 14px; border-radius:999px; background:#ffffff08; border:1px solid #ffffff18; font-size:.78rem; cursor:pointer; color:var(--muted); transition:.15s;}
+  .chip:hover{background:#ffffff14;}
+  .chip.active{background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#0e0f1a; font-weight:700; border-color:transparent;}
+  .status-chips{margin-bottom:18px;}
+  .status-chip[data-status="no_jugado"].active{background:#6c7086; color:#fff;}
+  .status-chip[data-status="en_curso"].active{background:linear-gradient(135deg,#ffb703,#fb8500); color:#1a1a1a;}
+  .status-chip[data-status="finalizado"].active{background:linear-gradient(135deg,#2a9d8f,#57cc99); color:#06251f;}
+  .stats{color:var(--muted); font-size:.8rem; margin-bottom:14px;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:16px;}
+  .gcard{background:var(--card); border-radius:14px; overflow:hidden; cursor:pointer; box-shadow:var(--shadow); border:1px solid #ffffff0d; transition:.2s; display:flex; flex-direction:column;}
+  .gcard:hover{transform:translateY(-4px); border-color:var(--accent);}
+  .cover-wrap{position:relative; width:100%; aspect-ratio:3/4; background:linear-gradient(135deg,#2a2d4a,#1c1f30); overflow:hidden;}
+  .cover-wrap img{width:100%; height:100%; object-fit:cover; display:block;}
+  .cover-fallback{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:12px; gap:6px;}
+  .auto-cover-initials{font-weight:900; font-size:2.1rem; letter-spacing:1px; color:#ffffffdd; text-shadow:0 2px 8px #0006;}
+  .auto-cover-title{font-weight:700; font-size:.78rem; color:#ffffffb0; line-height:1.25;}
+  .modal-cover{position:relative;}
+  #modalCoverFallback{position:absolute; inset:0; display:none;}
+  #modalCoverFallback .auto-cover-initials{font-size:2.6rem;}
+  #modalCoverFallback .auto-cover-title{font-size:.85rem;}
+  .badge-cat{position:absolute; top:8px; left:8px; background:#000a; padding:3px 9px; border-radius:999px; font-size:.65rem; font-weight:700; letter-spacing:.3px;}
+  .badge-status{position:absolute; top:8px; right:8px; padding:3px 9px; border-radius:999px; font-size:.62rem; font-weight:800; letter-spacing:.3px; color:#fff; text-transform:uppercase;}
+  .badge-status.no_jugado{background:#6c7086cc;}
+  .badge-status.en_curso{background:linear-gradient(135deg,#ffb703,#fb8500); color:#1a1a1a;}
+  .badge-status.finalizado{background:linear-gradient(135deg,#2a9d8f,#57cc99); color:#06251f;}
+  .gcard-body{padding:10px 12px 12px; flex:1; display:flex; flex-direction:column; gap:6px;}
+  .gcard-title{font-size:.85rem; font-weight:700; line-height:1.25; min-height:2.2em;}
+  .gcard-meta{display:flex; justify-content:space-between; align-items:center; font-size:.72rem; color:var(--muted);}
+  .stars{color:#ffce54; letter-spacing:1px;}
+  .gcard-download{margin-top:2px; font-size:.72rem; font-weight:700; color:var(--accent); text-decoration:none;}
+  .gcard-download:hover{text-decoration:underline;}
+  .gcard-disc{font-size:.68rem; color:var(--muted); font-weight:600;}
+  .empty{text-align:center; padding:60px 20px; color:var(--muted);}
+  .empty h3{color:var(--text);}
+  /* Modal */
+  .modal-overlay{position:fixed; inset:0; background:#000c; backdrop-filter:blur(4px); z-index:100; display:none; align-items:flex-start; justify-content:center; overflow-y:auto; padding:30px 16px;}
+  .modal-overlay.open{display:flex;}
+  .modal{background:var(--bg2); max-width:780px; width:100%; border-radius:20px; overflow:hidden; box-shadow:0 20px 60px #000a; border:1px solid #ffffff14; animation:pop .2s ease; position:relative;}
+  @keyframes pop{from{transform:scale(.96); opacity:0} to{transform:scale(1); opacity:1}}
+  .modal-top{display:flex; gap:20px; padding:24px; flex-wrap:wrap;}
+  .modal-cover{width:200px; flex-shrink:0; border-radius:12px; overflow:hidden; aspect-ratio:3/4; background:#11131f;}
+  .modal-cover img{width:100%; height:100%; object-fit:cover;}
+  .modal-info{flex:1; min-width:220px;}
+  .modal-info h2{margin:0 0 6px; font-size:1.4rem;}
+  .modal-tags{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;}
+  .tag{background:#ffffff10; padding:4px 10px; border-radius:8px; font-size:.72rem; color:var(--accent); font-weight:700;}
+  .modal-info p.resena{color:#d0d3e2; font-size:.9rem; line-height:1.5;}
+  .modal-stat-row{display:flex; gap:20px; margin-top:14px; flex-wrap:wrap;}
+  .modal-stat{font-size:.78rem; color:var(--muted);}
+  .modal-stat b{display:block; color:var(--text); font-size:.95rem;}
+  .modal-download{display:inline-block; margin-top:14px; background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#0e0f1a; font-weight:800; text-decoration:none; padding:9px 16px; border-radius:10px; font-size:.82rem;}
+  .shots{display:grid; grid-template-columns:1fr 1fr; gap:2px; padding:0 24px 24px;}
+  .shots img{width:100%; aspect-ratio:16/10; object-fit:cover; border-radius:8px; background:#11131f;}
+  .close-btn{position:absolute; top:16px; right:16px; background:#ffffff14; border:none; color:#fff; width:34px; height:34px; border-radius:50%; font-size:1.1rem; cursor:pointer;}
+  .modal-nav{position:fixed; top:50%; transform:translateY(-50%); z-index:110; background:#ffffff14; border:none; color:#fff; width:44px; height:44px; border-radius:50%; font-size:1.3rem; cursor:pointer; backdrop-filter:blur(6px);}
+  .modal-nav:hover{background:#ffffff28;}
+  #modalPrev{left:16px;}
+  #modalNext{right:16px;}
+  @media (max-width:700px){ .modal-nav{width:38px; height:38px; font-size:1.1rem;} #modalPrev{left:6px;} #modalNext{right:6px;} }
+  .edit-section{padding:0 24px 24px; border-top:1px solid #ffffff10; margin-top:4px;}
+  .edit-toggle{background:none; border:1px solid #ffffff20; color:var(--muted); padding:8px 14px; border-radius:8px; cursor:pointer; font-size:.78rem; margin:16px 24px 0;}
+  .edit-toggle:hover{color:var(--text); border-color:var(--accent);}
+  .edit-form{display:none; flex-direction:column; gap:10px; padding-top:14px;}
+  .edit-form.open{display:flex;}
+  .edit-form label{font-size:.72rem; color:var(--muted); display:flex; flex-direction:column; gap:4px;}
+  .edit-form input, .edit-form textarea, .edit-form select{background:#0e0f1a; border:1px solid #ffffff20; color:var(--text); padding:9px 12px; border-radius:8px; font-size:.85rem; font-family:inherit;}
+  .edit-form textarea{resize:vertical; min-height:70px;}
+  .cover-search-links{display:flex; gap:8px; flex-wrap:wrap; margin-top:2px;}
+  .cover-search-links a{font-size:.7rem; color:var(--accent); text-decoration:none; background:#ffffff08; border:1px solid #ffffff18; padding:4px 9px; border-radius:6px;}
+  .cover-search-links a:hover{background:#ffffff14; text-decoration:underline;}
+  .edit-form-row{display:flex; gap:10px; flex-wrap:wrap;}
+  .edit-form-row label{flex:1; min-width:140px;}
+  .status-select-row{display:flex; gap:8px;}
+  .status-btn{flex:1; padding:9px 6px; border-radius:8px; border:1px solid #ffffff20; background:#ffffff08; color:var(--muted); cursor:pointer; font-size:.72rem; font-weight:700; text-transform:uppercase; transition:.15s;}
+  .status-btn.active{color:#fff; border-color:transparent;}
+  .status-btn.active[data-status="no_jugado"]{background:#6c7086;}
+  .status-btn.active[data-status="en_curso"]{background:linear-gradient(135deg,#ffb703,#fb8500); color:#1a1a1a;}
+  .status-btn.active[data-status="finalizado"]{background:linear-gradient(135deg,#2a9d8f,#57cc99); color:#06251f;}
+  .edit-actions{display:flex; gap:10px; margin-top:4px; flex-wrap:wrap;}
+  .btn-save{background:linear-gradient(135deg,var(--accent),var(--accent2)); border:none; color:#0e0f1a; padding:10px 16px; border-radius:8px; font-weight:700; cursor:pointer; font-size:.82rem;}
+  .btn-delete{background:none; border:1px solid var(--danger); color:var(--danger); padding:10px 16px; border-radius:8px; cursor:pointer; font-size:.82rem; margin-left:auto;}
+  footer{text-align:center; color:var(--muted); font-size:.75rem; padding:30px 20px 10px;}
+  @media (max-width:600px){ .disc-banner .count{display:none;} }
+
+  /* Solo visible en modo edición desbloqueado */
+  .admin-only{display:none;}
+  body.is-editor .admin-only{display:inline-flex;}
+  body.is-editor .btn-download-general ~ .admin-only{display:inline-flex;}
+
+  /* ====== Menú hamburguesa (discos) ====== */
+  .menu-toggle{display:none; background:#ffffff10; border:1px solid #ffffff20; color:var(--text); font-size:1.1rem; width:38px; height:38px; border-radius:10px; cursor:pointer; align-items:center; justify-content:center; flex-shrink:0;}
+  .menu-backdrop{display:none; position:fixed; inset:0; background:#000c; z-index:59;}
+  .menu-backdrop.open{display:block;}
+  .current-disc-label{display:none;}
+  .disc-tab-buttons{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .drawer-section-title, #categoryChipsDrawer, #statusChipsDrawer, .drawer-close-btn{display:none;}
+
+  /* ====== Estilo mobile ====== */
+  @media (max-width:760px){
+    header{padding:10px 14px;}
+    .header-inner{flex-wrap:nowrap; gap:10px;}
+    .logo{font-size:1.05rem; flex:1; display:flex; flex-direction:column; line-height:1.3;}
+    .current-disc-label{display:block; font-size:.66rem; font-weight:600; letter-spacing:.02em; color:var(--muted);}
+    .menu-toggle{display:flex;}
+    #unlockBtn{padding:8px 10px; font-size:0; width:38px; height:38px; display:flex; align-items:center; justify-content:center; border-radius:10px;}
+    #unlockBtn::before{content:"🔒"; font-size:1rem;}
+    #unlockBtn.editor-active::before{content:"🔓";}
+
+    .disc-tabs{
+      display:none; position:fixed; top:0; left:0; bottom:0; width:82%; max-width:320px;
+      background:#1b1d2e; flex-direction:column; align-items:stretch; gap:0;
+      padding:70px 16px 24px; overflow-y:auto; overflow-x:hidden; z-index:61; box-shadow:0 0 40px #000d;
+      border-right:1px solid #ffffff2a;
+    }
+    .disc-tabs.open{display:flex; flex-direction:column;}
+    .drawer-close-btn{display:block; position:absolute; top:14px; right:14px; background:#ffffff14; border:1px solid #ffffff30; color:var(--text); padding:8px 14px; border-radius:999px; font-size:.78rem; font-weight:700; cursor:pointer;}
+    .drawer-close-btn:hover{background:#ffffff22;}
+    .disc-tab-buttons{flex-direction:column; gap:6px;}
+    .disc-tab{width:100%; text-align:left; padding:13px 16px; border-radius:12px; font-size:.92rem; background:#ffffff14; border-color:#ffffff30; color:var(--text);}
+    .add-disc-tab{order:99;}
+
+    .drawer-section-title{display:block; font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.07em; color:var(--accent); margin:22px 0 10px; padding-left:2px;}
+    .drawer-section-title:first-child{margin-top:0;}
+    .drawer-cat-title.hide-empty{display:none;}
+    #categoryChipsDrawer, #statusChipsDrawer{display:flex; flex-wrap:wrap; gap:8px;}
+    #categoryChipsDrawer.drawer-scroll-box{max-height:38vh; overflow-y:auto; align-content:flex-start; padding:4px 4px 4px 2px; margin:0 -4px; border-top:1px solid #ffffff14; border-bottom:1px solid #ffffff14; padding-top:10px; padding-bottom:10px;}
+    #categoryChipsDrawer .chip, #statusChipsDrawer .chip{padding:9px 15px; background:#ffffff1a; border-color:#ffffff38; color:var(--text); font-weight:600;}
+    #categoryChipsDrawer .chip.active, #statusChipsDrawer .chip.active{color:#0e0f1a;}
+
+    /* las categorías/estado ya viven en el menú lateral; se ocultan de la barra principal */
+    #categoryChips, #statusChips{display:none;}
+
+    main{padding:14px;}
+    /* cuadro de disco/banner oculto en mobile para ganar espacio visual de las carátulas */
+    .disc-banner{display:none;}
+
+    .general-download-box{flex-direction:column; align-items:stretch;}
+    .btn-download-general, .btn-edit-general{width:100%; text-align:center; padding:12px 16px;}
+
+    .toolbar{flex-direction:column; align-items:stretch; padding:12px;}
+    .toolbar input[type=search]{width:100%; padding:12px 14px;}
+    .toolbar label{width:100%;}
+    .toolbar select{width:100%; padding:12px;}
+    #addGameBtn{width:100%; padding:13px 16px;}
+    #autoCoversBtn, #duplicatesBtn, #deleteDuplicatesBtn{width:100%; padding:13px 16px;}
+
+    .grid{grid-template-columns:repeat(2, 1fr); gap:12px;}
+    .gcard{border-radius:16px;}
+    .gcard-title{font-size:.82rem; min-height:2.3em;}
+    .gcard-body{padding:10px 10px 12px;}
+
+    .modal-overlay{padding:0; align-items:stretch;}
+    .modal{max-width:100%; width:100%; min-height:100%; border-radius:0; animation:none;}
+    .modal-top{flex-direction:column; align-items:center; padding:20px 18px;}
+    .modal-cover{width:52%; max-width:200px;}
+    .modal-info{width:100%; text-align:center;}
+    .modal-tags{justify-content:center;}
+    .modal-stat-row{justify-content:center;}
+    .shots{grid-template-columns:1fr; padding:0 18px 18px;}
+    .modal-nav{width:38px; height:38px; font-size:1.05rem;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <button id="menuToggleBtn" class="menu-toggle" aria-label="Menú de discos">☰</button>
+    <div class="logo">🎮<span class="tag">GamePass</span><span class="current-disc-label" id="currentDiscLabel"></span></div>
+    <select id="consolaSelect" class="consola-select" title="Elegir consola"></select>
+    <nav class="disc-tabs" id="discTabs">
+      <button class="drawer-close-btn admin-hide" id="closeDrawerBtn" aria-label="Cerrar menú">✕ Cerrar</button>
+      <div class="drawer-section-title">Discos</div>
+      <div class="disc-tab-buttons" id="discTabButtons"></div>
+      <div class="drawer-section-title drawer-cat-title">Categoría</div>
+      <div class="chips drawer-scroll-box" id="categoryChipsDrawer"></div>
+      <div class="drawer-section-title">Estado</div>
+      <div class="chips status-chips" id="statusChipsDrawer"></div>
+    </nav>
+    <div class="header-right">
+      <button id="unlockBtn">🔒 Desbloquear edición</button>
+    </div>
+  </div>
+</header>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+
+<main>
+  <div class="disc-banner" id="discBanner"></div>
+  <div class="general-download-box" id="generalDownloadBox"></div>
+
+  <div class="toolbar">
+    <input type="search" id="searchInput" placeholder="Buscar juego...">
+    <label>Ordenar
+      <select id="sortSelect">
+        <option value="alpha">A - Z</option>
+        <option value="alpha-desc">Z - A</option>
+        <option value="dificultad-asc">Dificultad ↑</option>
+        <option value="dificultad-desc">Dificultad ↓</option>
+        <option value="jugadores">Cant. Jugadores</option>
+        <option value="estado">Estado</option>
+      </select>
+    </label>
+    <button id="addGameBtn" class="admin-only">+ Agregar juego</button>
+    <button id="autoCoversBtn" class="admin-only" title="Busca automáticamente una carátula para los juegos que no tienen una cargada. No toca las que ya existen.">🖼️ Autocargar carátulas</button>
+    <button id="duplicatesBtn" class="admin-only" title="Ver juegos con el mismo nombre repetido">🔁 Repetidos</button>
+    <button id="deleteDuplicatesBtn" class="admin-only" title="Eliminar automáticamente los juegos repetidos, conservando la copia más completa de cada uno">🗑️ Borrar repetidos</button>
+  </div>
+
+  <div class="chips" id="categoryChips"></div>
+  <div class="chips status-chips" id="statusChips"></div>
+  <div class="stats" id="statsLine"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="emptyState" style="display:none;">
+    <h3>Sin resultados</h3>
+    <p>Probá con otra búsqueda o categoría.</p>
+  </div>
+</main>
+
+<footer>Catálogo generado automáticamente · PS2 Fat + Adaptador de Red · Datos en Supabase</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <button class="modal-nav" id="modalPrev" title="Juego anterior">‹</button>
+  <button class="modal-nav" id="modalNext" title="Juego siguiente">›</button>
+  <div class="modal">
+    <button class="close-btn" id="closeModal">✕</button>
+    <div class="modal-top">
+      <div class="modal-cover"><img id="modalCoverImg" alt=""><div class="cover-fallback" id="modalCoverFallback"></div></div>
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+        <div class="modal-tags">
+          <span class="tag" id="modalCat"></span>
+          <span class="tag" id="modalDisc"></span>
+        </div>
+        <p class="resena" id="modalResena"></p>
+        <div class="modal-stat-row">
+          <div class="modal-stat">Dificultad<b id="modalDificultad"></b></div>
+          <div class="modal-stat">Jugadores<b id="modalJugadores"></b></div>
+          <div class="modal-stat">Género<b id="modalGenero"></b></div>
+        </div>
+        <a href="#" id="modalDownloadBtn" class="modal-download" target="_blank" rel="noopener" style="display:none;">⬇️ Descargar juego</a>
+      </div>
+    </div>
+    <div class="shots">
+      <img id="shot1" alt="Captura 1" loading="lazy">
+      <img id="shot2" alt="Captura 2" loading="lazy">
+    </div>
+    <button class="edit-toggle admin-only" id="editToggle">✏️ <span id="modalTitleLabel">Editar juego</span></button>
+    <div class="edit-section admin-only">
+      <div class="edit-form" id="editForm">
+        <div class="edit-form-row">
+          <label>Nombre
+            <input type="text" id="inputNombre" placeholder="Nombre del juego">
+          </label>
+          <label>Disco
+            <select id="inputDisco"></select>
+          </label>
+        </div>
+        <div class="edit-form-row">
+          <label>Categoría
+            <input type="text" id="inputCategoria" list="categoriaDatalist" placeholder="Ej: Lucha, Aventura...">
+            <datalist id="categoriaDatalist"></datalist>
+          </label>
+          <label>Género original
+            <input type="text" id="inputGenero" placeholder="Ej: Survival Horror">
+          </label>
+        </div>
+        <div class="edit-form-row">
+          <label>Dificultad
+            <select id="inputDificultad">
+              <option value="1">★☆☆☆☆</option>
+              <option value="2">★★☆☆☆</option>
+              <option value="3">★★★☆☆</option>
+              <option value="4">★★★★☆</option>
+              <option value="5">★★★★★</option>
+            </select>
+          </label>
+          <label>Jugadores
+            <input type="text" id="inputJugadores" placeholder="Ej: 1-2">
+          </label>
+        </div>
+        <label>Estado
+          <div class="status-select-row" id="statusButtons">
+            <button type="button" class="status-btn" data-status="no_jugado">No Jugado</button>
+            <button type="button" class="status-btn" data-status="en_curso">En Curso</button>
+            <button type="button" class="status-btn" data-status="finalizado">Finalizado</button>
+          </div>
+        </label>
+        <label>URL de carátula personalizada
+          <input type="text" id="inputCaratula" placeholder="https://...">
+          <div class="cover-search-links" id="coverSearchLinks"></div>
+        </label>
+        <div class="edit-form-row">
+          <label>URL de captura 1 (opcional)
+            <input type="text" id="inputShot1" placeholder="https://...">
+          </label>
+          <label>URL de captura 2 (opcional)
+            <input type="text" id="inputShot2" placeholder="https://...">
+          </label>
+        </div>
+        <p style="margin:-4px 0 0; font-size:.7rem; color:var(--muted);">Si dejás las capturas vacías, se buscan automáticamente por nombre del juego.</p>
+        <label>URL de descarga del juego
+          <input type="text" id="inputDescarga" placeholder="https://...">
+        </label>
+        <label>Reseña
+          <textarea id="inputResena" placeholder="Escribí una reseña..."></textarea>
+        </label>
+        <div class="edit-actions">
+          <button class="btn-save" id="btnSaveEdit">Guardar</button>
+          <button class="btn-delete" id="deleteGameBtn">🗑️ Eliminar juego</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="discModalOverlay">
+  <div class="modal" style="max-width:420px;">
+    <button class="close-btn" id="closeDiscModal">✕</button>
+    <div style="padding:26px 24px 24px;">
+      <h2 id="discModalTitle" style="margin:0 0 16px;">Editar disco</h2>
+      <div class="edit-form open" style="padding-top:0;">
+        <label>Nombre
+          <input type="text" id="discInputNombre" placeholder="Ej: Disco 1">
+        </label>
+        <label>Subtítulo
+          <input type="text" id="discInputSubtitulo" placeholder="Ej: Deportes y Carreras">
+        </label>
+        <label>Plataforma
+          <select id="discInputPlataforma"></select>
+        </label>
+        <label>Color
+          <input type="color" id="discInputColor" style="height:42px; padding:4px; cursor:pointer;">
+        </label>
+        <label id="discMoveGamesLabel" style="display:none;">Al eliminar, mover sus juegos a
+          <select id="discMoveGamesSelect"></select>
+        </label>
+        <div class="edit-actions">
+          <button class="btn-save" id="discBtnSave">Guardar</button>
+          <button class="btn-delete" id="discBtnDelete" style="display:none;">🗑️ Eliminar disco</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="importModalOverlay">
+  <div class="modal" style="max-width:640px;">
+    <button class="close-btn" id="closeImportModal">✕</button>
+    <div style="padding:26px 24px 24px;">
+      <h2 style="margin:0 0 6px;">📥 Importar juegos con IA</h2>
+      <p style="margin:0 0 16px; font-size:.82rem; color:var(--muted); line-height:1.5;">
+        1) Copiá el prompt. 2) Pegalo en tu IA favorita (ChatGPT, Claude, Gemini, etc.) y abajo del todo agregá tu lista de juegos, uno por línea. 3) Pegá la respuesta acá abajo y tocá Importar.
+      </p>
+      <div class="edit-form open" style="padding-top:0;">
+        <button class="btn-save" id="copyImportPromptBtn" type="button">📋 Copiar prompt para la IA</button>
+        <label>Pegá acá la respuesta de la IA (JSON)
+          <textarea id="importJsonInput" style="min-height:180px; font-family:monospace; font-size:.76rem;" placeholder='[{"nombre":"...", "categoria":"...", "genero_original":"...", "dificultad":3, "jugadores":"1", "resena":"...", "estado":"no_jugado"}]'></textarea>
+        </label>
+        <div id="importStatusMsg" style="font-size:.78rem; color:var(--muted); min-height:1.2em;"></div>
+        <div class="edit-actions">
+          <button class="btn-save" id="importGamesBtn">✅ Importar juegos</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="duplicatesModalOverlay">
+  <div class="modal" style="max-width:640px;">
+    <button class="close-btn" id="closeDuplicatesModal">✕</button>
+    <div style="padding:26px 24px 24px;">
+      <h2 style="margin:0 0 6px;">🔁 Juegos repetidos</h2>
+      <p class="dup-summary" id="duplicatesCount"></p>
+      <div id="duplicatesList"></div>
+      <div class="edit-actions" style="margin-top:10px;">
+        <button class="btn-delete" id="btnConfirmDeleteDuplicates">🗑️ Borrar repetidos (conservar el más completo)</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="supabase-config.js?v=202609040230"></script>
+<script type="module" src="script.js?v=202609040230"></script>
+</body>
+</html>
