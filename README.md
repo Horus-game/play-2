@@ -15,6 +15,52 @@ guardados en la nube (Supabase), en tiempo real para todos, y edición protegida
   quieras en el campo "Categoría" al agregar o editar un juego, y aparece sola como chip de
   filtro.
 
+## 0. Novedades: multi-plataforma, repetidos y autocompletar carátulas
+
+- **Selector de consola (arriba a la izquierda, al lado del logo):** un desplegable
+  con "🕹️ Todas" + cada consola que ya tenga discos cargados (PS2, Xbox, etc.) +
+  "➕ Agregar consola...". Elegir una consola filtra las pestañas de disco para
+  mostrar solo los de esa consola. "➕ Agregar consola..." abre directamente el
+  formulario de disco nuevo — al elegir ahí una plataforma que todavía no usaste
+  (por ejemplo "Xbox 360"), esa consola nueva aparece sola en el desplegable en
+  cuanto guardás el primer disco. Con "🕹️ Todas" + el disco "Todos" (en las
+  pestañas de abajo) ves todos los juegos de todas las consolas y todos los
+  discos juntos.
+- **Agregar consolas a mano (PS4, PS Vita, Xbox One, etc.):** la lista de
+  consolas ya viene con PS2, PS1, PS3, PSP, Xbox, Xbox 360, GameCube, Wii,
+  N64, SNES, NES, GBA, Switch, Dreamcast, Mega Drive y PC. Si te falta alguna
+  (PS4, PS5, PS Vita, Xbox Series, Atari, etc.), en el formulario de disco
+  nuevo/editar, en el campo "Plataforma", elegí la última opción
+  **"➕ Otra consola (agregar nueva)..."**. Aparecen dos campos: el **nombre**
+  de la consola (ej: "PS4" o "PS Vita") y un **ícono/emoji** opcional (ej: 🎮).
+  Al guardar, esa consola queda creada y disponible para siempre, tanto en
+  este desplegable como en el selector de consola de arriba — para todos los
+  que abran el sitio, no solo en tu celular. Las consolas agregadas así no
+  tienen autocompletado de carátulas (tenés que pegar la carátula a mano en
+  cada juego).
+- **Repetidos:** dos botones nuevos en la barra de herramientas (modo edición):
+  - **🔁 Repetidos** — lista los juegos con el mismo nombre (sin importar
+    mayúsculas/acentos), agrupados, comparando solo dentro de la misma consola
+    (un juego que se llama igual en PS2 y en Xbox no cuenta como repetido).
+  - **🗑️ Borrar repetidos** — borra automáticamente los duplicados,
+    conservando de cada grupo la copia con más datos cargados. Pide
+    confirmación y no se puede deshacer.
+- **🖼️ Autocargar carátulas:** busca automáticamente una carátula (repo de
+  libretro-thumbnails, según la plataforma de cada disco) para todos los
+  juegos que estás viendo en ese momento y que **no tienen carátula cargada
+  todavía**. Nunca reemplaza una carátula que ya pusiste a mano. Útil después
+  de importar varios juegos de golpe. Solo revisa la vista actual (si querés
+  cubrir todo el catálogo, poné el filtro en "Todas" / "Todos" antes de
+  apretarlo).
+- Si tu proyecto es de antes de este cambio, corré `migracion_plataforma.sql`
+  una vez en el SQL Editor de Supabase (agrega la columna "plataforma" sin
+  borrar nada).
+- Para poder agregar consolas a mano (PS4, PS Vita, etc.) en un proyecto que
+  ya tenías creado, corré también `migracion_plataformas_custom.sql` una vez
+  en el SQL Editor de Supabase (crea la tabla "plataformas", sin borrar
+  nada). Si estás armando el proyecto desde cero, no hace falta: ya está
+  incluido en `schema.sql`.
+
 ## 1. Crear el proyecto en Supabase (una sola vez, ~5 minutos)
 
 1. Andá a **[supabase.com](https://supabase.com)** → creá una cuenta (gratis) → **New project**.
@@ -87,7 +133,10 @@ encontrado.
 index.html            → App principal (grilla, filtros, modal, formularios de edición)
 script.js              → Lógica: lectura/escritura en Supabase, auth, tiempo real
 supabase-config.js     → Tus credenciales de Supabase (completar, ver sección 1)
-schema.sql             → Definición de tablas + reglas de seguridad (correr una vez)
+schema.sql             → Definición de tablas + reglas de seguridad (correr una vez, proyecto nuevo)
+migracion_shots.sql    → Migración vieja: agrega columnas de capturas (solo si tu proyecto es de antes)
+migracion_plataforma.sql → Migración: agrega la columna "plataforma" a discos (solo si tu proyecto es de antes)
+migracion_plataformas_custom.sql → Migración: crea la tabla "plataformas" para consolas agregadas a mano (solo si tu proyecto es de antes)
 seed.sql                → Carga inicial de tus 3 discos y 257 juegos (correr una vez)
 generar_qrs.html        → Generador de QR por disco (sin cambios)
 build_data.py           → Script original que generó los datos (ya no se usa en producción,
